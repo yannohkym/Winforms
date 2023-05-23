@@ -35,6 +35,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.Female = new System.Windows.Forms.CheckBox();
+            this.Male = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -72,6 +75,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
@@ -96,11 +100,44 @@
             this.button3.Text = "Exit";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // Female
+            // 
+            this.Female.AutoSize = true;
+            this.Female.Location = new System.Drawing.Point(302, 190);
+            this.Female.Name = "Female";
+            this.Female.Size = new System.Drawing.Size(75, 20);
+            this.Female.TabIndex = 7;
+            this.Female.Text = "Female";
+            this.Female.UseVisualStyleBackColor = true;
+            // 
+            // Male
+            // 
+            this.Male.AutoSize = true;
+            this.Male.Location = new System.Drawing.Point(13, 190);
+            this.Male.Name = "Male";
+            this.Male.Size = new System.Drawing.Size(59, 20);
+            this.Male.TabIndex = 8;
+            this.Male.Text = "Male";
+            this.Male.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(576, 189);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(61, 20);
+            this.checkBox1.TabIndex = 9;
+            this.checkBox1.Text = "Other";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(697, 551);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.Male);
+            this.Controls.Add(this.Female);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -124,6 +161,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.CheckBox Female;
+        private System.Windows.Forms.CheckBox Male;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
