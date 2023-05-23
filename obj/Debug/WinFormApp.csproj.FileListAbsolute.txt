@@ -1,0 +1,11 @@
+C:\Users\25474\source\repos\WinFormApp\bin\Debug\WinFormApp.exe.config
+C:\Users\25474\source\repos\WinFormApp\bin\Debug\WinFormApp.exe
+C:\Users\25474\source\repos\WinFormApp\bin\Debug\WinFormApp.pdb
+C:\Users\25474\source\repos\WinFormApp\obj\Debug\WinFormApp.csproj.AssemblyReference.cache
+C:\Users\25474\source\repos\WinFormApp\obj\Debug\WinFormApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\25474\source\repos\WinFormApp\obj\Debug\WinFormApp.LoginForm.resources
+C:\Users\25474\source\repos\WinFormApp\obj\Debug\WinFormApp.Properties.Resources.resources
+C:\Users\25474\source\repos\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.cache
+C:\Users\25474\source\repos\WinFormApp\obj\Debug\WinFormApp.csproj.CoreCompileInputs.cache
+C:\Users\25474\source\repos\WinFormApp\obj\Debug\WinFormApp.exe
+C:\Users\25474\source\repos\WinFormApp\obj\Debug\WinFormApp.pdb
