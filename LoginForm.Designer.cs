@@ -38,6 +38,7 @@
             this.Female = new System.Windows.Forms.CheckBox();
             this.Male = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.Checklist = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -130,11 +131,21 @@
             this.checkBox1.Text = "Other";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // Checklist
+            // 
+            this.Checklist.FormattingEnabled = true;
+            this.Checklist.ItemHeight = 16;
+            this.Checklist.Location = new System.Drawing.Point(39, 422);
+            this.Checklist.Name = "Checklist";
+            this.Checklist.Size = new System.Drawing.Size(239, 100);
+            this.Checklist.TabIndex = 10;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(697, 551);
+            this.Controls.Add(this.Checklist);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.Male);
             this.Controls.Add(this.Female);
@@ -164,6 +175,7 @@
         private System.Windows.Forms.CheckBox Female;
         private System.Windows.Forms.CheckBox Male;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.ListBox Checklist;
     }
 }
 
