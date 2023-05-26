@@ -21,5 +21,10 @@ namespace WinFormApp
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("this is a button clicked");
+        }
     }
 }
